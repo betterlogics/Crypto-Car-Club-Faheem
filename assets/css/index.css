@@ -1,30 +1,31 @@
-.btn-css{
+.btn-css {
 
-    background-color: rgb(255, 187, 123) ;
-    border-radius: 7px;
+  background-color: rgb(255, 187, 123);
+  border-radius: 7px;
 }
 
-.btn-css:hover{
+.btn-css:hover {
 
-    background-color: white;
-    color: black;
+  background-color: white;
+  color: black;
 
-    transition-duration: 1s;
+  transition-duration: 1s;
 
 }
-.icons-hover{
-    color: white;
-    margin: auto;
 
-    height: 30px;
-    width: auto;
+.icons-hover {
+  color: white;
+  margin: auto;
+
+  height: 30px;
+  width: auto;
 }
 
 
 
-.sec2-h1{
+.sec2-h1 {
 
-  font-size: 40px ;
+  font-size: 40px;
   color: rgb(253, 177, 37);
 
 }
@@ -38,71 +39,137 @@
 } */
 
 
-.landPageText{
+.landPageText {
 
   z-index: 10;
 }
 
 
 
-.landPagevideo{
+.landPagevideo {
 
   height: auto;
 }
 
 
 
+.imageclass {
+  border-radius: 100%;
+}
+
+.input-class {
+  width: 100%;
+  height: 3rem;
+  border-radius: 7px;
+  border: 2px solid rgb(243, 217, 103);
+  margin-top: 10px;
+}
+
+.input-class1 {
+
+  height: 300px !important;
+}
+
+.btn-class {
+  background-color: rgb(243, 217, 103);
 
 
+}
+
+.border-wali {
+  margin-top: 19px;
+  width: 40%;
+  height: 0 !important;
+  border: 1px solid rgb(243, 217, 103);
+}
+
+.roadMapHeading {
+  color: #ffa05f;
+  font-size: 3rem;
+
+}
+
+.line-bw {
+  width: 0px;
+  margin-left: 65px;
+  height: 29vh;
+  border: 2px solid #ffa05f;
+  background-color: #ffa05f;
+}
+.Right{
+  margin-top: 30vh;
+}
+.Right1{
+  margin-top: 20vh;
+}
+.Right h4 {
+  color: #ffa05f;
+}
+.Right1 h4 {
+  color: #ffa05f;
+}
+.extra
+{
+  margin-top: 15vh;
+}
 
 
-
-
-
+@media (min-width: 280px) and (max-width: 480px)
+{
+.line-bw {
+    display: none;
+}
+.Right{
+  margin-top: 3vh;
+}
+.Right1{
+  margin-top: 3vh;
+}
+}
 /* ---------------Image Rotate--------------------- */
 
 
 #slidecaption {
-  -webkit-animation-name: spinner; 
- -webkit-animation-timing-function: linear; 
- -webkit-animation-iteration-count: infinite; 
- -webkit-animation-duration: 2s; 
- animation-name: spinner; 
- animation-timing-function: linear; 
- animation-iteration-count: infinite; 
- animation-duration: 2s; 
- -webkit-transform-style: preserve-3d; 
- -moz-transform-style: preserve-3d; 
- -ms-transform-style: preserve-3d; 
- transform-style: preserve-3d;
+  -webkit-animation-name: spinner;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 2s;
+  animation-name: spinner;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
 }
 
 
 
 
-@keyframes spinner { 
-  from { 
-   -moz-transform: rotateY(0deg); 
-   -ms-transform: rotateY(0deg); 
-   transform: rotateY(0deg); 
-  } 
-  to 
-  { 
-   -moz-transform: rotateY(-360deg); 
-   -ms-transform: rotateY(-360deg); 
-   transform: rotateY(-360deg); 
+@keyframes spinner {
+  from {
+    -moz-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
 
-  } 
+  to {
+    -moz-transform: rotateY(-360deg);
+    -ms-transform: rotateY(-360deg);
+    transform: rotateY(-360deg);
+
+  }
 }
 
 
 
-.section6{
+.section6 {
   background-image: url(/assets/images/rewards-money.427229f2.png);
   background-repeat: no-repeat;
   background-size: cover;
 
-  
+
 }
 
 
@@ -110,29 +177,30 @@
 
 video {
   z-index: -1;
-position: absolute;
-top: 5;
-left: 0;
-width: 100%;
-height: 125%;
--o-object-fit: cover;
-   object-fit: cover;
--o-object-position: center;
-   object-position: center;
+  position: absolute;
+  top: 5;
+  left: 0;
+  width: 100%;
+  height: 125%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
 }
 
 .overlay {
-min-height: 100vh;
-display: -webkit-box;
-display: -ms-flexbox;
-display: flex;
--webkit-box-align: center;
-    -ms-flex-align: center;
-        align-items: center;
--webkit-box-pack: center;
-    -ms-flex-pack: flex-start;
-        justify-content: flex-start;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: flex-start;
+  justify-content: flex-start;
 }
+
 .overlay h2 {
   width: 390px;
   color: white;
